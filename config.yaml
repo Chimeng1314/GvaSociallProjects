@@ -7,7 +7,7 @@ aliyun-oss:
     base-path: yourBasePath
 autocode:
     web: web/src
-    root: /Users/dream/Documents/PythonProjects/GiteeProjects/GvaProject
+    root: F:\GiteeProjects
     server: server
     module: github.com/flipped-aurora/gin-vue-admin/server
     ai-path: ""
@@ -83,7 +83,7 @@ hua-wei-obs:
     access-key: you-access-key
     secret-key: you-secret-key
 jwt:
-    signing-key: dd6844b1-bdce-4840-b1aa-50e852ed3fbb
+    signing-key: a6cbda56-ad94-435f-a9b7-3b811986e809
     expires-time: 7d
     buffer-time: 1d
     issuer: qmPlus
