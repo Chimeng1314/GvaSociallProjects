@@ -1,0 +1,5 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2025-03-10 09:23:42.026	[34minfo[0m	/Users/dream/Documents/PythonProjects/GiteeProjects/GvaProject/server/initialize/router.go:60	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2025-03-10 09:23:42.026	[34minfo[0m	/Users/dream/Documents/PythonProjects/GiteeProjects/GvaProject/server/initialize/plugin.go:10	项目暂未初始化，无法安装插件，初始化后重启项目即可完成插件安装
+[github.com/flipped-aurora/gin-vue-admin/server]2025-03-10 09:23:42.026	[34minfo[0m	/Users/dream/Documents/PythonProjects/GiteeProjects/GvaProject/server/initialize/router.go:108	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2025-03-10 09:23:42.027	[34minfo[0m	/Users/dream/Documents/PythonProjects/GiteeProjects/GvaProject/server/core/server.go:38	server run success on 	{"address": ":8888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2025-03-10 09:36:54.855	[34minfo[0m	/Users/dream/Documents/PythonProjects/GiteeProjects/GvaProject/server/api/v1/system/sys_initdb.go:57	前往初始化数据库
