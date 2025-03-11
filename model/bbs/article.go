@@ -15,9 +15,9 @@ type Article struct {
 	CategoryName string `json:"categoryName" gorm:"not null;comment : 分类名称"`
 	ViewCount    uint   `json:"viewCount" gorm:"not null;comment : 浏览量"`
 	Comments     uint   `json:"comments" gorm:"not null;comment : 评论数"`
-	CommentsOpen bool   `json:"commentsOpen" gorm:"not null;comment : 是否开启评论 0 未开启 1 已开启"`
-	Status       bool   `json:"status" gorm:"not null;comment : 是否发布 0 未发布 1 已发布"`
-	IsDelete     bool   `json:"isDelete" gorm:"not null;comment : 是否删除 0 未删除 1 已删除"`
+	CommentsOpen bool   `json:"commentsOpen" gorm:"not null;default:1;comment : 是否开启评论 0 未开启 1 已开启"`
+	Status       bool   `json:"status" gorm:"not null;default:0;comment : 是否发布 0 未发布 1 已发布"`
+	IsDelete     bool   `json:"isDelete" gorm:"not null;default:0;comment : 是否删除 0 未删除 1 已删除"`
 	UserId       uint   `json:"userId" gorm:"not null;comment : 文章发布者ID"`
 	UserName     string `json:"userName" gorm:"not null;comment : 文章发布者用户名"`
 	UserAvatar   string `json:"userAvatar" gorm:"not null;comment : 文章发布者头像"`
